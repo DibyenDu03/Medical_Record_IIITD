@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload_fetch"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_marginTop="25dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed1"
+            android:hint="Tags for Medicine"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed"
+        android:layout_gravity="center"
+        android:text="Upload medicine name"
+        android:textSize="20dp"
+        android:textAlignment="center"
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:onClick="upload"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Show Others"
+        android:onClick="show"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Fetch"
+            android:onClick="change"
+            android:layout_marginRight="20dp"
+            />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Share Record"
+        android:onClick="share"
+        />
+    </LinearLayout>
+
+</LinearLayout>
